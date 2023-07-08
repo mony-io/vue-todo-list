@@ -1,7 +1,3 @@
-<script setup>
-import { RouterLink } from 'vue-router';
-</script>
-
 <template>
   <div class="about">
     <h1>About Me</h1>
@@ -13,7 +9,7 @@ import { RouterLink } from 'vue-router';
     <div class="bg">
       <img class="bg-pro" src="../assets/pfp.jpg" alt="logo" />
       <div class="bg_desc">
-        <p class="bg-desc">- Hello World</p>
+        <!-- <p class="bg-desc">- Hello World</p> -->
         <!-- <p class="bg-desc">- Age : 22 Years Old</p>
         <p class="bg-desc">- Study : IT at Build Bright Uni.</p>
         <p class="bg-desc">- Skill : Front End Engineer</p> -->
@@ -46,8 +42,8 @@ import { RouterLink } from 'vue-router';
     }
 
     .bg-pro {
-      width: 300px;
-      height: 300px;
+      width: 240px;
+      height: 240px;
       object-fit: cover;
       margin-top: 20px;
       border-radius: 3px;

@@ -17,7 +17,6 @@ const todosCompleted = computed(() => {
   return todoList.value.every((todo) => todo.isCompleted);
 });
 
-
 const setTodoListLocalStrorage = () => {
   localStorage.setItem("todoList", JSON.stringify(todoList.value))
 }
